@@ -1,4 +1,4 @@
-import 'package:first_flutter_app/view/myPage.dart';
+import 'package:first_flutter_app/view/ricky.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,12 +11,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: myPage(),
+      home: Ricky_Page(),
     );
   }
 }
